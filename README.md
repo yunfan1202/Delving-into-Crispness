@@ -33,8 +33,7 @@ To refine human-annotated labels, simply run (example):
 ```bash
 python refine_label.py
 ```
-The `EdgeModel_gen.pth` directly comes from [Google Drive](https://drive.google.com/drive/folders/1KyXz4W4SAvfsGh3NJ7XgdOv5t46o-8aa)
-(see [EdgeConnect](https://github.com/knazeri/edge-connect) for more details).
+The [EdgeModel_gen.pth](https://drive.google.com/drive/folders/1KyXz4W4SAvfsGh3NJ7XgdOv5t46o-8aa) and [networks.py](https://github.com/knazeri/edge-connect/blob/master/src/networks.py) are borrowed from [EdgeConnect](https://github.com/knazeri/edge-connect).
 
 To evaluate the proposed new metric `Crispness` of predicted edge maps , see `eval_crispness/eval_crispness.m` and run with Matlab.
 
@@ -63,4 +62,4 @@ The model named `BSDS_refine_dice.pth` is trained on BSDS dataset using refined 
 - [DexiNed](https://github.com/xavysp/DexiNed)
 - [LPCB](https://arxiv.org/abs/1807.10097) (Dice loss)
 - [CATS](https://github.com/WHUHLX/CATS) (tracing loss)
-- [EpicFlow](http://lear.inrialpes.fr/src/epicflow/)# Delving-into-Crispness
+- [EpicFlow](http://lear.inrialpes.fr/src/epicflow/)
