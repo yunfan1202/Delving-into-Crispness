@@ -3,7 +3,7 @@
 Official implementation of the paper:
 
 Delving into Crispness: Guided Label Refinement for Crisp Edge Detection
-[[arXiv](https:/arxiv.org/abs/2306.15172)] [[Video](https://www.bilibili.com/video/BV1rj411S7WK)].
+[[arXiv](https://arxiv.org/abs/2306.15172)] [[Video](https://www.bilibili.com/video/BV1rj411S7WK)].
 
 [Yunfan Ye](https://yunfan1202.github.io), 
 [Renjiao Yi](https://renjiaoyi.github.io/), 
