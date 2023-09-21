@@ -51,8 +51,9 @@ The model named `BSDS_refine_dice.pth` is trained on BSDS dataset using refined 
 @article{ye2023delving,
   title={Delving into Crispness: Guided Label Refinement for Crisp Edge Detection},
   author={Ye, Yunfan and Yi, Renjiao and Gao, Zhirui and Cai, Zhiping and Xu, Kai},
-  journal={arXiv preprint arXiv:2306.15172},
-  year={2023}
+  journal={IEEE Transactions on Image Processing},
+  year={2023},
+  publisher={IEEE}
 }
 ```
 
