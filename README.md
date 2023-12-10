@@ -46,7 +46,7 @@ python pidinet/test_pidinet.py
 The model named `BSDS_refine_dice.pth` is trained on BSDS dataset using refined labels and dice loss.
 (using both dice loss and refined labels are highly recommanded for crisp edge detection).
 
-Refined datasets can be downloaded at [BSDS](https://github.com/yunfan1202/Delving-into-Crispness/releases/download/datasets/BSDS_refine.zip) and [BIPED](https://github.com/yunfan1202/Delving-into-Crispness/releases/download/datasets/BIPED_refine.zip).
+For your convenience, the refined datasets can be directly downloaded at [BSDS](https://github.com/yunfan1202/Delving-into-Crispness/releases/download/datasets/BSDS_refine.zip) and [BIPED](https://github.com/yunfan1202/Delving-into-Crispness/releases/download/datasets/BIPED_refine.zip).
 
 ## Citation
 ```bibtex
