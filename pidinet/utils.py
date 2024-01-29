@@ -59,6 +59,13 @@ def load_checkpoint(args, running_file):
     state = None
     if os.path.exists(model_filename):
         state = torch.load(model_filename, map_location='cpu')
+        
+        weights_dict = {}
+        for k, v in state["state_dict"].items():
+            new_k = k.replace('module.', '') if 'module' in k else k
+            weights_dict[new_k] = v
+        state["state_dict"] = weights_dict
+        
         loadinfo2 = "=> loaded checkpoint '{}' successfully".format(model_filename)
     else:
         loadinfo2 = "no checkpoint loaded"
