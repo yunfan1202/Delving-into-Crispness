@@ -102,7 +102,8 @@ def main(running_file):
 
     ### Transfer to cuda devices
     if args.use_cuda:
-        model = torch.nn.DataParallel(model).cuda()
+        # model = torch.nn.DataParallel(model).cuda()
+        model = model.cuda()
         print('cuda is used, with %d gpu devices' % torch.cuda.device_count())
     else:
         print('cuda is not used, the running might be slow')
